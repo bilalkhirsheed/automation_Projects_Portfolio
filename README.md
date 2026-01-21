@@ -102,3 +102,105 @@ This project is configured to run **entirely in Stripe test mode**.
 ## License
 
 This project is provided as a reference implementation and portfolio example.
+
+
+
+
+# Zoho Sign Contract Automation System (Make.com)
+
+## Purpose
+This project implements an end-to-end **contract generation, electronic signing, and vendor delivery automation** using **Make.com**, **Zoho Writer**, **Zoho Sign**, **CloudConvert**, and **Airtable**.
+
+The automation streamlines the complete agreement lifecycle — from extracting contract details via email, generating documents, converting file formats, collecting electronic signatures, and delivering finalized contracts back to vendors with full traceability.
+
+---
+
+## Use Case
+This solution is designed for organizations that:
+
+- Send agreements or contracts to vendors, attorneys, or partners
+- Receive contract information through email
+- Require legally signed documents before execution
+- Want a fully automated and auditable contract workflow
+- Need centralized tracking of contract status and history
+
+### Typical Use Cases
+- Attorney engagement agreements
+- Vendor contracts
+- Service agreements
+- NDA and compliance documents
+- Client onboarding contracts
+
+---
+
+## Key Features
+- Automated email data extraction for contract details
+- JSON-based document merge using Zoho Writer
+- Dynamic agreement document generation
+- File format conversion via CloudConvert
+- Electronic signature collection using Zoho Sign
+- Automatic vendor notification and signed document delivery
+- Centralized contract record management with Airtable
+- Modular and scalable Make.com scenario architecture
+
+---
+
+## Architecture Overview
+The automation is structured into **two independent Make.com scenarios**, ensuring reliability, scalability, and easy maintenance.
+
+---
+
+## Scenario 01 – Email Intake & Data Storage
+- Monitors incoming emails containing contract-related information
+- Extracts structured data from email content
+- Parses and normalizes data into a standardized JSON format
+- Stores contract records in Airtable
+- Prepares structured data for document generation
+
+---
+
+## Scenario 02 – Document Signing & Vendor Delivery
+- Generates agreement documents using Zoho Writer merge templates
+- Converts documents into required formats using CloudConvert
+- Sends documents to Zoho Sign for electronic signing
+- Automatically places signature and date fields
+- Collects digitally signed contracts
+- Sends finalized signed documents back to the vendor
+
+---
+
+## Signing & Delivery Flow
+1. Contract details are received via email
+2. Data is extracted and stored in Airtable
+3. Agreement document is generated automatically
+4. Document is converted to the required format
+5. Contract is sent for electronic signature
+6. Vendor signs the document digitally
+7. Final signed contract is delivered to the vendor
+8. Contract status and records are stored for auditing
+
+---
+
+## Automation Flow Diagram
+Automation Flow  
+Automation Flow  
+Automation Flow  
+
+*(Diagram placeholder – replace with an image if required)*
+
+---
+
+## Tech Stack
+- **Make.com**
+- **Zoho Writer** (Document Merge Templates)
+- **Zoho Sign** (Electronic Signatures)
+- **CloudConvert** (File Conversion)
+- **Airtable** (Contract Data Storage)
+- **Email** (Gmail / SMTP / IMAP)
+
+---
+
+## License
+This project is provided as a **reference implementation and portfolio showcase**.  
+It demonstrates practical, real-world automation design using **Make.com** and the **Zoho ecosystem**.
+
