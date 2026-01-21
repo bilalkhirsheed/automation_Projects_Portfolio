@@ -72,9 +72,11 @@ The automation is structured into three independent Make.com scenarios:
 
 ## Automation Flow Diagram
 
-![Automation Flow](assets/automation-flow.png)
+![Automation Flow](assets/1.png)
+![Automation Flow](assets/2.png)
+![Automation Flow](assets/3.png)
 
-*(Place the PNG diagram inside the `/assets` folder in this repository.)*
+
 
 ---
 
