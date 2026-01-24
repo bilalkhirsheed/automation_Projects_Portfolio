@@ -182,11 +182,10 @@ The automation is structured into **two independent Make.com scenarios**, ensuri
 ---
 
 ## Automation Flow Diagram
-Automation Flow  
-Automation Flow  
-Automation Flow  
 
-*(Diagram placeholder – replace with an image if required)*
+![Automation Flow](assets/1.png)
+![Automation Flow](assets/2.png)
+![Automation Flow](assets/3.png)
 
 ---
 
@@ -203,4 +202,87 @@ Automation Flow
 ## License
 This project is provided as a **reference implementation and portfolio showcase**.  
 It demonstrates practical, real-world automation design using **Make.com** and the **Zoho ecosystem**.
+
+# Gmail Integration with ClickUp (Make.com)
+
+## Purpose
+This project automates order-related task creation by integrating **Gmail** with **ClickUp** using **Make.com**.  
+The automation monitors incoming emails, categorizes them based on subject lines, and creates corresponding tasks in ClickUp, including automatic attachment handling.
+
+---
+
+## Use Case
+This solution is designed for teams that:
+
+- Receive orders or requests via email
+- Manage work using ClickUp
+- Want to eliminate manual task creation
+- Need automatic attachment handling
+- Require better organization and faster response times
+
+### Typical Use Cases
+- Order processing and fulfillment
+- Customer service requests
+- Support ticket creation
+- Internal task assignment from emails
+
+---
+
+## Key Features
+- Gmail trigger for new incoming emails
+- Email subject-based categorization
+- Automatic ClickUp task creation
+- Attachment detection and upload to ClickUp
+- Organized task naming and structuring
+- Scalable Make.com automation design
+
+---
+
+## Automation Workflow
+1. A new email is received in Gmail  
+2. The subject line is analyzed and categorized  
+3. A corresponding task is created in ClickUp  
+4. Email attachments are detected  
+5. Attachments are uploaded to the ClickUp task  
+6. Tasks are organized for efficient processing  
+
+---
+
+## Architecture Overview
+The automation is implemented as a **single Make.com scenario** for simplicity and maintainability.
+
+### Scenario – Gmail to ClickUp Task Automation
+- Monitors Gmail inbox for new messages  
+- Applies subject-based filtering and categorization  
+- Creates tasks in ClickUp with relevant details  
+- Attaches files directly to the created task  
+
+---
+## Automation Flow Diagram
+
+![Automation Flow](assets/1.png)
+![Automation Flow](assets/2.png)
+![Automation Flow](assets/3.png)
+
+## Tech Stack
+- **Make.com**
+- **Gmail**
+- **ClickUp**
+
+---
+
+## Skills & Deliverables
+- Workflow automation using Make.com  
+- Gmail API integration  
+- ClickUp task management automation  
+- Conditional logic and email parsing  
+- Attachment handling and file automation  
+- Process optimization and workflow efficiency  
+
+---
+
+## License
+This project is provided as a **portfolio and reference implementation**.  
+It demonstrates practical automation skills using Make.com and productivity tools.
+
 
