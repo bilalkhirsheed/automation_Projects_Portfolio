@@ -183,9 +183,9 @@ The automation is structured into **two independent Make.com scenarios**, ensuri
 
 ## Automation Flow Diagram
 
-![Automation Flow](assets/1.png)
-![Automation Flow](assets/2.png)
-![Automation Flow](assets/3.png)
+![Automation Flow](assets/zoho_1.jpeg)
+![Automation Flow](assets/Zoho_2.jpeg)
+
 
 ---
 
@@ -260,9 +260,8 @@ The automation is implemented as a **single Make.com scenario** for simplicity a
 ---
 ## Automation Flow Diagram
 
-![Automation Flow](assets/1.png)
-![Automation Flow](assets/2.png)
-![Automation Flow](assets/3.png)
+![Automation Flow](assets/gmailClickUp_1.png)
+
 
 ## Tech Stack
 - **Make.com**
