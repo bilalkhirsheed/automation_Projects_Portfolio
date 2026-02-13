@@ -1,3 +1,325 @@
+# 1️⃣ Tripetto → ClickUp Task Creation | Brevo PDF | Outlook Meeting Automation
+
+## Purpose
+This automation streamlines lead handling by automatically creating tasks, sending documentation, and scheduling follow-ups after a Tripetto form submission.
+
+The workflow ensures structured processing, duplication prevention, and immediate engagement with new leads.
+
+---
+
+## Use Case
+This system is ideal for businesses that:
+
+- Collect leads via Tripetto forms  
+- Need automatic task creation in ClickUp  
+- Send onboarding PDFs automatically  
+- Schedule structured follow-up meetings  
+- Prevent duplicate client entries  
+
+---
+
+## Key Features
+
+- Instant trigger on Tripetto submission  
+- Duplicate task check by Client Name  
+- Automatic ClickUp task creation  
+- PDF email sent via Brevo  
+- Outlook meeting scheduled (+24 hours)  
+- Structured automation logic  
+
+---
+
+## Architecture Overview
+
+### Scenario – Lead Processing
+
+1. Tripetto form submission triggers automation  
+2. Check duplication in ClickUp  
+3. Create task if not already exists  
+4. Send PDF email via Brevo  
+5. Schedule Outlook meeting after 24 hours  
+
+---
+
+## Automation Flow Diagram
+
+![Tripetto Automation Flow](https://via.placeholder.com/800x300.png?text=Tripetto+Automation+Flow)
+
+---
+
+## Tech Stack
+
+- Make.com  
+- Tripetto  
+- ClickUp API  
+- Brevo  
+- Microsoft Outlook  
+- Make Data Store  
+
+---
+
+# 2️⃣ AI-Powered SEO → WordPress Article Automation
+
+## Purpose
+
+This automation generates fully SEO-optimized articles and publishes them automatically as draft posts in WordPress.
+
+It combines keyword research, AI content generation, image creation, and WordPress publishing.
+
+---
+
+## Use Case
+
+Designed for:
+
+- SEO agencies  
+- Content marketing teams  
+- Website owners needing automated blog posts  
+- Niche blog scaling  
+
+---
+
+## Key Features
+
+- Keyword research via DataForSEO  
+- AI-generated SEO content  
+- Featured image generation  
+- Image upload to WordPress Media  
+- Draft post publishing  
+- Runs daily (2 articles per day)  
+
+---
+
+## Architecture Overview
+
+### Scenario – Daily Content Automation
+
+1. Fetch keyword topic  
+2. Generate SEO-optimized article  
+3. Generate featured image  
+4. Upload image to WordPress  
+5. Publish article as Draft  
+
+---
+
+## Automation Flow Diagram
+
+![SEO Automation Flow](https://via.placeholder.com/800x300.png?text=SEO+Automation+Flow)
+
+---
+
+## Tech Stack
+
+- Make.com  
+- DataForSEO  
+- WordPress REST API  
+- AI Content Engine  
+- Image Generation API  
+
+---
+
+# 3️⃣ ClickUp Delivered → Review Request Email Automation
+
+## Purpose
+
+This automation automatically sends review request emails two months after a task is marked as completed in ClickUp.
+
+The system tracks finished dates and prevents duplicate emails using Make Data Store.
+
+---
+
+## Use Case
+
+Ideal for:
+
+- Agencies  
+- Freelancers  
+- Service-based businesses  
+- Reputation management workflows  
+
+---
+
+## Key Features
+
+- Daily monitoring of finished ClickUp tasks  
+- Finished date tracking in Data Store  
+- 2-month waiting condition  
+- Duplicate prevention system  
+- Automated review request via Brevo  
+
+---
+
+## Architecture Overview
+
+### Scenario – Review Automation
+
+1. Check completed tasks daily  
+2. Store finished date in Data Store  
+3. Verify if 2 months have passed  
+4. Check if email already sent  
+5. Send review email via Brevo  
+6. Mark Email Sent = Yes  
+
+---
+
+## Automation Flow Diagram
+
+![Review Automation Flow](https://via.placeholder.com/800x300.png?text=Review+Automation+Flow)
+
+---
+
+## Tech Stack
+
+- Make.com  
+- ClickUp API  
+- Brevo  
+- Make Data Store  
+
+---
+
+# 4️⃣ Facebook Monitoring → Email Alerts Automation
+
+## Purpose
+
+This automation monitors managed Facebook pages and sends email alerts when specific keywords are detected in daily posts.
+
+---
+
+## Use Case
+
+Designed for:
+
+- Brand monitoring  
+- Competitor tracking  
+- Lead detection  
+- Keyword-based alerts  
+
+---
+
+## Key Features
+
+- Daily Facebook page monitoring  
+- Same-day post filtering  
+- Keyword detection logic  
+- Email alerts via Brevo  
+- Automated scheduled execution  
+
+---
+
+## Architecture Overview
+
+### Scenario – Facebook Monitoring
+
+1. Retrieve managed Facebook pages  
+2. Fetch same-day posts  
+3. Check content against predefined keywords  
+4. Send email alert with post link  
+
+---
+
+## Automation Flow Diagram
+
+![Facebook Monitoring Flow](https://via.placeholder.com/800x300.png?text=Facebook+Monitoring+Flow)
+
+---
+
+## Tech Stack
+
+- Make.com  
+- Facebook Graph API  
+- Brevo  
+
+---
+
+# 5️⃣ Excel → Brevo Automated Email System
+
+## Purpose
+
+This automation monitors Excel sheets and sends automated emails when new or updated rows are detected.
+
+A "Processed" column ensures duplicate emails are not sent.
+
+---
+
+## Use Case
+
+Ideal for:
+
+- CRM-style Excel workflows  
+- Lead databases  
+- Event registrations  
+- Internal tracking sheets  
+
+---
+
+## Key Features
+
+- Multi-sheet monitoring  
+- Row-by-row validation  
+- "Processed" column control logic  
+- Email validation check  
+- Automated email sending via Brevo  
+- Duplicate prevention system  
+
+---
+
+## Architecture Overview
+
+### Scenario – Excel Monitoring
+
+1. Load all sheets  
+2. Check rows one by one  
+3. Verify Processed column (Empty / No)  
+4. Validate Email column  
+5. Send email via Brevo  
+6. Mark row as Processed  
+
+---
+
+## Automation Flow Diagram
+
+![Excel Automation Flow](https://via.placeholder.com/800x300.png?text=Excel+Automation+Flow)
+
+---
+
+# Scheduling Summary
+
+| Automation | Schedule |
+|------------|----------|
+| Tripetto Lead System | Instant Trigger |
+| AI SEO WordPress | Daily – 2 Articles |
+| ClickUp Review Request | Daily – 23:59 |
+| Facebook Monitoring | Daily – 23:59 |
+| Excel Email System | Daily – 07:00 |
+
+---
+
+# Tech Stack Summary
+
+- Make.com  
+- ClickUp API  
+- Brevo  
+- WordPress REST API  
+- Facebook Graph API  
+- DataForSEO  
+- Microsoft Outlook  
+- Excel Integration  
+- Make Data Store  
+
+---
+
+# License
+
+This repository is provided as a portfolio reference and client automation showcase.
+
+
+
+
+
+
+
+
+
 # Stripe Manual Approval Booking System (Make.com Automation)
 
 ## Purpose
