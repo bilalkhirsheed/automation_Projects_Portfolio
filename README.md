@@ -43,7 +43,7 @@ This system is ideal for businesses that:
 
 ## Automation Flow Diagram
 
-![Tripetto Automation Flow](https://via.placeholder.com/800x300.png?text=Tripetto+Automation+Flow)
+![Automation Flow](assets/TripettoFormSubmissionClikcuPcreatiooBrevoEmailandoutloookMeeting.jpg)
 
 ---
 
@@ -104,7 +104,7 @@ Designed for:
 
 ## Automation Flow Diagram
 
-![SEO Automation Flow](https://via.placeholder.com/800x300.png?text=SEO+Automation+Flow)
+![Automation Flow](assets/AIPoweredSEOArticle.jpg)
 
 ---
 
@@ -164,7 +164,7 @@ Ideal for:
 
 ## Automation Flow Diagram
 
-![Review Automation Flow](https://via.placeholder.com/800x300.png?text=Review+Automation+Flow)
+![Automation Flow](assets/ClickUpDleiveredTaskReviewEmailaftertmonths.jpg)
 
 ---
 
@@ -219,7 +219,7 @@ Designed for:
 
 ## Automation Flow Diagram
 
-![Facebook Monitoring Flow](https://via.placeholder.com/800x300.png?text=Facebook+Monitoring+Flow)
+![Automation Flow](assets/FacebookMonitoingFiletring.jpg)
 
 ---
 
