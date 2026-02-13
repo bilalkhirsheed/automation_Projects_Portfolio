@@ -1,4 +1,4 @@
-# 1️⃣ Tripetto → ClickUp Task Creation | Brevo PDF | Outlook Meeting Automation
+#  Tripetto → ClickUp Task Creation | Brevo PDF | Outlook Meeting Automation
 
 ## Purpose
 This automation streamlines lead handling by automatically creating tasks, sending documentation, and scheduling follow-ups after a Tripetto form submission.
@@ -58,7 +58,7 @@ This system is ideal for businesses that:
 
 ---
 
-# 2️⃣ AI-Powered SEO → WordPress Article Automation
+#  AI-Powered SEO → WordPress Article Automation
 
 ## Purpose
 
@@ -118,7 +118,7 @@ Designed for:
 
 ---
 
-# 3️⃣ ClickUp Delivered → Review Request Email Automation
+#  ClickUp Delivered → Review Request Email Automation
 
 ## Purpose
 
@@ -177,7 +177,7 @@ Ideal for:
 
 ---
 
-# 4️⃣ Facebook Monitoring → Email Alerts Automation
+#  Facebook Monitoring → Email Alerts Automation
 
 ## Purpose
 
@@ -228,96 +228,6 @@ Designed for:
 - Make.com  
 - Facebook Graph API  
 - Brevo  
-
----
-
-# 5️⃣ Excel → Brevo Automated Email System
-
-## Purpose
-
-This automation monitors Excel sheets and sends automated emails when new or updated rows are detected.
-
-A "Processed" column ensures duplicate emails are not sent.
-
----
-
-## Use Case
-
-Ideal for:
-
-- CRM-style Excel workflows  
-- Lead databases  
-- Event registrations  
-- Internal tracking sheets  
-
----
-
-## Key Features
-
-- Multi-sheet monitoring  
-- Row-by-row validation  
-- "Processed" column control logic  
-- Email validation check  
-- Automated email sending via Brevo  
-- Duplicate prevention system  
-
----
-
-## Architecture Overview
-
-### Scenario – Excel Monitoring
-
-1. Load all sheets  
-2. Check rows one by one  
-3. Verify Processed column (Empty / No)  
-4. Validate Email column  
-5. Send email via Brevo  
-6. Mark row as Processed  
-
----
-
-## Automation Flow Diagram
-
-![Excel Automation Flow](https://via.placeholder.com/800x300.png?text=Excel+Automation+Flow)
-
----
-
-# Scheduling Summary
-
-| Automation | Schedule |
-|------------|----------|
-| Tripetto Lead System | Instant Trigger |
-| AI SEO WordPress | Daily – 2 Articles |
-| ClickUp Review Request | Daily – 23:59 |
-| Facebook Monitoring | Daily – 23:59 |
-| Excel Email System | Daily – 07:00 |
-
----
-
-# Tech Stack Summary
-
-- Make.com  
-- ClickUp API  
-- Brevo  
-- WordPress REST API  
-- Facebook Graph API  
-- DataForSEO  
-- Microsoft Outlook  
-- Excel Integration  
-- Make Data Store  
-
----
-
-# License
-
-This repository is provided as a portfolio reference and client automation showcase.
-
-
-
-
-
-
-
 
 
 # Stripe Manual Approval Booking System (Make.com Automation)
